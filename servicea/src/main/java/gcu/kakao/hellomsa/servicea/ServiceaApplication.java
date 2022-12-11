@@ -15,7 +15,6 @@ public class ServiceaApplication {
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(ServiceaApplication.class, args);
-		System.out.println("HI, v2");
 	}
 
 }
