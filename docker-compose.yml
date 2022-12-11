@@ -5,11 +5,11 @@ services:
     image: iseuli713/servicea:latest
     container_name: servicea
     ports:
-      - 8082:8082
+      - 8081:8081
 
   serviceb:
     build: ./serviceb
     image: iseuli713/serviceb:latest
     container_name: serviceb
     ports:
-      - 8081:8081
+      - 8082:8082
